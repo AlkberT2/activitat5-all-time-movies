@@ -32,7 +32,8 @@ const calculateMinutes = (duration) =>
         let totalMinutes = 0;
         if(duration.includes(' '))
         {
-            console.log("si inclou");let n = duration.split(' ');
+            console.log("si inclou");
+            let n = duration.split(' ');
             let hoursInMinutes = getHours(n[0]);
             let minutesinMinutes = getMinutes(n[1]);
             totalMinutes = hoursInMinutes + minutesinMinutes;
